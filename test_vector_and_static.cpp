@@ -60,7 +60,7 @@ main()
 		
 		cout << "Sono state prodotte " << fabbrica[1].numeroMacchine() << " macchine " << endl;
 		
-		for (int i = 0; i < fabbrica[1].numeroMacchine(); i++)
+		for (int i = 0; i < fabbrica[0].numeroMacchine(); i++)
 			{
 				cout << endl << "Modello Macchina: " << fabbrica[i].getModello();
 			}
